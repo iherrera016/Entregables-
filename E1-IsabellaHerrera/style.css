@@ -1,0 +1,56 @@
+body {background-color: rgb(110, 9, 31);font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex ;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;}
+
+.card {background-color: rgb(252, 161, 210);
+border-radius: 12px;
+box-shadow: 0 4px 12px rgb(239, 19, 66);
+padding: 30px;
+max-width: 400px;
+text-align: center;}
+
+.card img {border-radius:50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover; 
+    margin-bottom: 20px;}
+
+    .card h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #77002c;
+}
+
+.card h2 {
+  font-size: 18px;
+  color: #232362;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #4E4E4F;
+  margin-bottom: 20px;
+}
+
+.card ul {
+  list-style: none;
+  padding:0;
+  margin-bottom: 20px;
+}
+
+.card ul li {
+  background-color:#D8A3F0;
+  margin: 5px 0;
+  padding:8px;
+  border-radius: 20px;
+}
+
+.card a {
+ text-decoration: none;
+ color: #8D0EC7;
+ font-weight: bold;
+}
